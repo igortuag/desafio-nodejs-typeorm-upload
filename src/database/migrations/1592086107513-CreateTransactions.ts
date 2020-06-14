@@ -26,7 +26,11 @@ export default class CreateUsers1592001043078 implements MigrationInterface {
             name: 'value',
             type: 'decimal',
             precision: 10,
-            scale: 10,
+            scale: 2,
+          },
+          {
+            name: 'type',
+            type: 'varchar',
           },
           {
             name: 'category_id',
